@@ -41,7 +41,7 @@ Arch-Lite is a lightweight Linux desktop environment based on Arch Linux ARM, ru
 | <img src="https://images.pling.com/cache/85x85-2/img/00/00/32/24/44/1403328/fada4d24285aea3004c357d630aefdb8653b.png" width="20" align="absmiddle"> GTK theme | [WhiteSur-Dark](https://www.gnome-look.org/p/1403328) |
 | <img src="https://images.pling.com/cache/85x85-2/img/00/00/24/01/13/1400021/b52bb3a48d72826cb92c47c1cdfb9aba0084.png" width="20" align="absmiddle"> Icon theme | [Mkos-Big-Sur](https://www.gnome-look.org/p/1400021) |
 | <img src="https://images.pling.com/cache/85x85-2/img/00/00/60/19/78/2268811/naroz-cursor-vr26-logo-by-moyash-02.png" width="20" align="absmiddle"> Cursor theme | [Naroz](https://www.xfce-look.org/p/2268811) |
-| Dock | Nova Dock |
+| <img src="https://images.pling.com/cache/85x85-2/img/00/00/83/32/79/2338796/screenshot-2025-12-29-15-37-03.png" width="20" align="absmiddle"> Dock | Nova Dock |
 | File manager | Thunar |
 | Architecture | ARM64 |
 | Root access | Not required |
