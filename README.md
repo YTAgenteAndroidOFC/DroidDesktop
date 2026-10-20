@@ -22,6 +22,14 @@ A lightweight Linux desktop for Android. No root required.
 
 ---
 
+
+<div align="center">
+<img src="https://github.com/YTAgenteAndroidOFC/DroidDesktop/raw/main/Screenshot_20261020-084117.png" width="89%" alt="Droid-Desktop preview 1">
+<img >
+
+
+
+  
 ## Overview
 
 Arch-Lite is a lightweight Linux desktop environment based on Arch Linux ARM, running on Android through Termux, PRoot and Termux:X11.
@@ -30,9 +38,9 @@ Arch-Lite is a lightweight Linux desktop environment based on Arch Linux ARM, ru
 | --- | --- |
 | Distribution | Arch Linux ARM |
 | Desktop | XFCE Lite |
-| GTK theme | WhiteSur-Dark |
-| Icon theme | Mkos-Big-Sur |
-| Cursor theme | Naroz |
+| <img src="https://images.pling.com/cache/85x85-2/img/00/00/32/24/44/1403328/fada4d24285aea3004c357d630aefdb8653b.png" width="20" align="absmiddle"> GTK theme | [WhiteSur-Dark](https://www.gnome-look.org/p/1403328) |
+| <img src="https://images.pling.com/cache/85x85-2/img/00/00/24/01/13/1400021/b52bb3a48d72826cb92c47c1cdfb9aba0084.png" width="20" align="absmiddle"> Icon theme | [Mkos-Big-Sur](https://www.gnome-look.org/p/1400021) |
+| <img src="https://images.pling.com/cache/85x85-2/img/00/00/60/19/78/2268811/naroz-cursor-vr26-logo-by-moyash-02.png" width="20" align="absmiddle"> Cursor theme | [Naroz](https://www.xfce-look.org/p/2268811) |
 | Dock | Nova Dock |
 | File manager | Thunar |
 | Architecture | ARM64 |
@@ -191,12 +199,12 @@ The following settings were identified in the XFCE configuration supplied for th
 
 | Component | Selected theme |
 | --- | --- |
-| GTK theme | `WhiteSur-Dark` |
-| Window theme | `WhiteSur-Dark` |
-| Icon theme | `Mkos-Big-Sur` |
-| Cursor theme | `Naroz` |
+| <img src="https://images.pling.com/cache/85x85-2/img/00/00/32/24/44/1403328/fada4d24285aea3004c357d630aefdb8653b.png" width="20" align="absmiddle"> GTK theme | `WhiteSur-Dark` |
+| <img src="https://images.pling.com/cache/85x85-2/img/00/00/32/24/44/1403328/fada4d24285aea3004c357d630aefdb8653b.png" width="20" align="absmiddle"> Window theme | `WhiteSur-Dark` |
+| <img src="https://images.pling.com/cache/85x85-2/img/00/00/24/01/13/1400021/b52bb3a48d72826cb92c47c1cdfb9aba0084.png" width="20" align="absmiddle"> Icon theme | `Mkos-Big-Sur` |
+| <img src="https://images.pling.com/cache/85x85-2/img/00/00/60/19/78/2268811/naroz-cursor-vr26-logo-by-moyash-02.png" width="20" align="absmiddle"> Cursor theme | `Naroz` |
 
-#### WhiteSur GTK theme
+<h4><img src="https://images.pling.com/cache/85x85-2/img/00/00/32/24/44/1403328/fada4d24285aea3004c357d630aefdb8653b.png" width="32" align="absmiddle">&nbsp; <a href="https://www.gnome-look.org/p/1403328">WhiteSur GTK theme</a></h4>
 
 Install the theme from its upstream repository:
 
@@ -208,7 +216,7 @@ cd WhiteSur-gtk-theme
 ./install.sh -c dark
 ```
 
-#### Mkos-Big-Sur icons
+<h4><img src="https://images.pling.com/cache/85x85-2/img/00/00/24/01/13/1400021/b52bb3a48d72826cb92c47c1cdfb9aba0084.png" width="32" align="absmiddle">&nbsp; <a href="https://www.gnome-look.org/p/1400021">Mkos-Big-Sur icons</a></h4>
 
 The icon theme must be installed separately. Use the appropriate upstream project or package that provides `Mkos-Big-Sur`.
 
@@ -216,7 +224,7 @@ After installation, select it in:
 
 **Settings → Appearance → Icons**
 
-#### Naroz cursor
+<h4><img src="https://images.pling.com/cache/85x85-2/img/00/00/60/19/78/2268811/naroz-cursor-vr26-logo-by-moyash-02.png" width="32" align="absmiddle">&nbsp; <a href="https://www.xfce-look.org/p/2268811">Naroz cursor</a></h4>
 
 Install the cursor theme separately if it is not already present, then select it in:
 
