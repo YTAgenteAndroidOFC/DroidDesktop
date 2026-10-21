@@ -169,6 +169,19 @@ exec proot-distro login "$ARCH" --shared-tmp -- \
 
         unset DBUS_SESSION_BUS_ADDRESS
 
+        # Disable the default XFCE panel autostart
+        mkdir -p ~/.config/autostart
+
+        cat > ~/.config/autostart/xfce4-panel.desktop << "DESKTOP"
+[Desktop Entry]
+Type=Application
+Name=XFCE Panel
+Hidden=true
+DESKTOP
+
+        # Remove any panel left from a previous session
+        pkill -x xfce4-panel 2>/dev/null || true
+
         exec dbus-run-session -- startxfce4
     '
 EOF
