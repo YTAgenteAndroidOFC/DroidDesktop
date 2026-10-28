@@ -87,31 +87,37 @@ proot-distro list
 
 > The commands below use `archlinuxarm` as the distribution name. If your installation uses a different alias, replace it accordingly.
 
-### 03 — Install XFCE Lite
+03 — Install XFCE Lite
 
 Enter Arch Linux ARM:
 
-```bash
 proot-distro login archlinuxarm --shared-tmp
-```
 
-Update the system:
+Update the package databases and system:
 
-```bash
+sed -i 's/^DownloadUser = alpm/#DownloadUser = alpm/' /etc/pacman.conf
 pacman -Syu
-```
 
-Install the desktop environment and its dependencies:
+Install XFCE Lite and its dependencies:
 
-```bash
 pacman -S --needed \
   xfce4-session xfce4-panel xfwm4 xfconf xfce4-settings \
   xfce4-terminal thunar exo garcon \
   dbus xorg-xinit xorg-xrandr \
   gtk3 gdk-pixbuf2 librsvg \
   adwaita-icon-theme hicolor-icon-theme \
-  git sassc gtk-engine-murrine
-```
+  git sassc
+
+Troubleshooting
+
+- "problem setting DownloadUser 'alpm'": Comment out "DownloadUser = alpm" in "/etc/pacman.conf" and retry.
+- "target not found: gtk-engine-murrine": This package is unavailable in the configured repositories. It is not required for basic XFCE operation, so it has been omitted.
+
+Verify the installation:
+
+pacman -Q xfce4-session xfce4-panel xfwm4 thunar
+
+If all four packages are listed, continue to Step 04 — Create the startup script.
 
 ### 04 — Create the startup script
 
